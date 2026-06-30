@@ -2,16 +2,16 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: "Manrope";
-}
-
 @font-face {
   font-family: "Manrope";
   src: url("./assets/fonts/Manrope.woff2") format("woff2");
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope";
 }
 
 .container {

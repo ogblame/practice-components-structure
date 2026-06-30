@@ -1,0 +1,17 @@
+.header__actions {
+  margin-left: auto;
+  display: flex;
+  gap: 26px;
+}
+
+.header__login-button {
+  color: #6a0bff;
+}
+
+.header__register-button {
+  color: #ffffff;
+  background-color: #6a0bff;
+  width: 170px;
+  height: 48px;
+  border-radius: 12px;
+}
