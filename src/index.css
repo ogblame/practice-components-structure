@@ -17,6 +17,18 @@ body {
 .container {
   max-width: 1400px;
   margin: 0 auto;
+}
+
+.container__main {
   height: 100vh;
   background-color: rgba(244, 244, 244, 1);
+  padding: 40px 112px 80px 112px;
+}
+
+@media (max-width: 768px) {
+  .container__main {
+    height: 100vh;
+    background-color: rgba(244, 244, 244, 1);
+    padding: 25px 30px 80px 30px;
+  }
 }
