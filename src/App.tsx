@@ -2,6 +2,7 @@ import ExpertSection from "./components/Experts/ExpertSection";
 import Header from "./components/Header/Header";
 import Media from "./components/Media/Media";
 import "./index.css";
+import Alarm from "./assets/icons/Alarm.svg";
 
 function App() {
   return (
@@ -16,6 +17,12 @@ function App() {
         </p>
         <ExpertSection />
         <ExpertSection />
+        <div className="expert__info">
+          <img src={Alarm} alt="" />
+          <p className="expert__info-description">
+            30 минут в день на контент экспертов = +50% к вашим навыкам за год
+          </p>
+        </div>
       </main>
     </div>
   );
