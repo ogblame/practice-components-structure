@@ -24,36 +24,6 @@ body {
   padding: 40px 112px 80px 112px;
 }
 
-h3 {
-  margin: 0px;
-}
-
-.title__exprerts {
-  margin-top: 60px;
-}
-
-.description__exprerts {
-  width: 600px;
-  margin-top: 12px;
-}
-
-.expert__info {
-  display: flex;
-  gap: 20px;
-  padding: 24px;
-  width: auto;
-  height: 125px;
-  background-color: #6a0bff;
-  border-radius: 8px;
-  margin-top: 60px;
-  align-items: center;
-}
-
-.expert__info-description {
-  color: #ffffff;
-  font-size: 24px;
-}
-
 @media (max-width: 768px) {
   .container__main {
     background-color: rgba(244, 244, 244, 1);
@@ -62,15 +32,4 @@ h3 {
 }
 
 @media (max-width: 360px) {
-  .title__exprerts {
-    font-size: 20px;
-  }
-  .description__exprerts {
-    width: auto;
-    font-size: 16px;
-  }
-
-  .expert__info-description {
-    font-size: 16px;
-  }
 }

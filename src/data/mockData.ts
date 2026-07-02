@@ -1,0 +1,58 @@
+export const experts = [
+  {
+    id: 1,
+    title: "React",
+    profession: "React Developer",
+    description: "Разборы сложного кода и карьерные советы",
+    avatar: "react",
+  },
+  {
+    id: 2,
+    title: "Java",
+    profession: "Java Developer",
+    description: "Разборы сложного кода и карьерные советы",
+    avatar: "java",
+  },
+  {
+    id: 3,
+    title: "C++",
+    profession: "C/C++ Developer",
+    description: "Разборы сложного кода и карьерные советы",
+    avatar: "cpp",
+  },
+  {
+    id: 4,
+    title: "ML",
+    profession: "ML Engineer",
+    description: "Разборы сложного кода и карьерные советы",
+    avatar: "ml",
+  },
+  {
+    id: 5,
+    title: "PHP",
+    profession: "PHP Developer",
+    description: "Разборы сложного кода и карьерные советы",
+    avatar: "php",
+  },
+  {
+    id: 6,
+    title: "Data",
+    profession: "Data Science",
+    description: "Разборы сложного кода и карьерные советы",
+    avatar: "data",
+  },
+  {
+    id: 7,
+    title: "Rust",
+    profession: "Rust Developer",
+    description: "Разборы сложного кода и карьерные советы",
+    avatar: "rust",
+  },
+  {
+    id: 8,
+    title: "Python",
+    profession: "Python Developer",
+    description: "Разборы сложного кода и карьерные советы",
+    avatar: "python",
+  },
+];

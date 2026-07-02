@@ -1,4 +1,3 @@
-import React from "react";
 import "./Expert.css";
 import Telegram from "../../assets/icons/Telegram.svg";
 import Youtube from "../../assets/icons/Youtube.svg";

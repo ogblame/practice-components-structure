@@ -1,8 +1,8 @@
-import ExpertSection from "./components/Experts/ExpertSection";
 import Header from "./components/Header/Header";
 import Media from "./components/Media/Media";
 import "./index.css";
-import Alarm from "./assets/icons/Alarm.svg";
+import Expert from "./components/Experts/Expert";
+import Main from "./components/Main/Main";
 
 function App() {
   return (
@@ -10,19 +10,8 @@ function App() {
       <Header />
       <main className="container__main">
         <Media />
-        <h3 className="title__exprerts">Эксперты YeaHub</h3>
-        <p className="description__exprerts">
-          Наши гуру делятся опытом в разных форматах. Смотрите разборы кейсов,
-          участвуйте в стримах и перенимайте их подход к работе
-        </p>
-        <ExpertSection />
-        <ExpertSection />
-        <div className="expert__info">
-          <img src={Alarm} alt="" />
-          <p className="expert__info-description">
-            30 минут в день на контент экспертов = +50% к вашим навыкам за год
-          </p>
-        </div>
+        <Expert />
+        <Main />
       </main>
     </div>
   );
