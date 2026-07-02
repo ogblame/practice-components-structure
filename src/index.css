@@ -20,15 +20,36 @@ body {
 }
 
 .container__main {
-  height: 100vh;
   background-color: rgba(244, 244, 244, 1);
   padding: 40px 112px 80px 112px;
 }
 
 @media (max-width: 768px) {
   .container__main {
-    height: 100vh;
     background-color: rgba(244, 244, 244, 1);
     padding: 25px 30px 80px 30px;
+  }
+}
+
+h3 {
+  margin: 0px;
+}
+
+.title__exprerts {
+  margin-top: 60px;
+}
+
+.description__exprerts {
+  width: 600px;
+  margin-top: 12px;
+}
+
+@media (max-width: 360px) {
+  .title__exprerts {
+    font-size: 20px;
+  }
+  .description__exprerts {
+    width: auto;
+    font-size: 16px;
   }
 }
